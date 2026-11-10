@@ -19,7 +19,7 @@ Use `_powershell` for modern Windows environments. Use `_native` for older or re
 
 ## Requirements
 
-- Windows OS (tested on Windows 7, 10, Server 2012+)
+- Windows OS
 - Must be run as Administrator
 - No additional tools or dependencies required
 
@@ -75,17 +75,6 @@ Example — replace the existing entries with your own:
 ```bat
 reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\YourServiceName" > 14_reg_service_YourServiceName.txt
 ```
-
-This is useful for checking OT software license services, industrial control system components, or any non-standard services specific to the target environment.
-
----
-
-## Use Cases
-
-- Yearly Windows configuration review as part of managed security services
-- Pre/post-change configuration snapshots
-- ISO 27001 / IEC 62443 compliance evidence collection
-- Security baseline audits
 
 ---
 
