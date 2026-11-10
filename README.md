@@ -2,8 +2,6 @@
 
 Windows configuration data collection scripts for security reviews and compliance assessments. Outputs structured text and HTML reports across 14 security-relevant areas.
 
-Built for use in yearly configuration reviews and OT/IT security assessments.
-
 ---
 
 ## Scripts
